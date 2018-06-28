@@ -1,0 +1,48 @@
+.datepicker thead {
+  background: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.actions a:hover {
+  cursor: pointer;
+}
+
+.overflow {
+  height: 250px;
+  overflow: auto;
+}
+
+.checkbox-options a {
+  cursor: pointer;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.modal-backdrop {
+  height: 100%;
+  z-index: 10;
+}
+
+.grade {
+  font-size: 30px;
+}
+
+.grading {
+  background: #f5f5f5;
+  border: 1px solid $grayLight;
+  padding: 20px;
+}
+
+.timeline {
+  border-left: 5px solid $success;
+  padding-left: 10px;
+}
+
+#sql-editor {
+  height: 400px;
+}

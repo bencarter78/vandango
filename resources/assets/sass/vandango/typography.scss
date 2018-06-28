@@ -1,0 +1,97 @@
+//
+// Typography
+// --------------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  color : $gray;
+}
+
+a {
+  color : inherit;
+}
+
+a:hover {
+  color : $primary;
+}
+
+.text- {
+  &white {
+    color : $white;
+  }
+  &primary {
+    color : $primary;
+  }
+  &secondary {
+    color : $secondary;
+  }
+  &error {
+    color : $danger;
+  }
+  &black {
+    color : $black;
+  }
+  &success {
+    color : $success;
+  }
+  &warning {
+    color : $warning;
+  }
+  &gray-light {
+    color : $grayLight;
+  }
+  &gray-lighter {
+    color : $grayLighter;
+  }
+  &gray-lightest {
+    color : $grayLightest;
+  }
+  &gray-dark {
+    color: $grayDark;
+  }
+  &gray-darker {
+    color: $grayDarker;
+  }
+}
+
+.text- {
+  &center {
+    text-align : center;
+  }
+  &middle {
+    vertical-align : middle;
+  }
+  &upper {
+    text-transform : uppercase;
+  }
+}
+
+.weight- {
+  &normal {
+    font-weight : normal;
+  }
+  &bold {
+    font-weight : bold;
+  }
+}
+
+.font-size- {
+  &full {
+    font-size : 100%;
+  }
+  &larger {
+    font-size : 125%;
+  }
+  &largest {
+    font-size : 150%;
+  }
+  &small {
+    font-size : 90%;
+  }
+  &smallest {
+    font-size : 80%;
+  }
+}
+
+.is-underlined {
+  text-decoration: underline;
+}

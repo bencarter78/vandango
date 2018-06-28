@@ -1,0 +1,11 @@
+.badge- {
+  &primary { background-color: $primary; }
+  &success { background-color: $success; }
+  &info { background-color: $info; }
+  &danger { background-color: $danger; }
+  &warning { background-color: $warning; }
+}
+
+.badge {
+  font-weight: normal;
+}

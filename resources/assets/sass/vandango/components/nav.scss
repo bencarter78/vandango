@@ -1,0 +1,43 @@
+.navbar {
+  min-height : 50px;
+  padding    : 15px 20px;
+}
+
+.nav-list > li > a, .nav-list .nav-header {
+  margin-right : -15px;
+  margin-left  : -15px;
+  text-shadow  : 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.nav-header {
+  display        : block;
+  padding        : 3px 20px;
+  font-size      : 11px;
+  font-weight    : bold;
+  line-height    : 20px;
+  color          : #999999;
+  text-shadow    : 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-transform : uppercase;
+}
+
+.navbar-inverse {
+  background    : $black;
+  border-bottom : 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color : $white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color : $white;
+}
+
+.sidebar .nav > li > a {
+  padding-top    : 5px;
+  padding-bottom : 5px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color : $grayLightest;
+}

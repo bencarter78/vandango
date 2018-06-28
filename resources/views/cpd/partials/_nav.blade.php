@@ -1,0 +1,1 @@
+<li><a href="{!! route('cpd.activities.index') !!}"><i class="fa fa-home"></i> CPD</a></li>

@@ -1,0 +1,54 @@
+.panel .table-responsive {
+  padding: 0 15px;
+}
+
+.panel .panel-body .table-responsive {
+  padding: 0;
+}
+
+.panel > .table-bordered, .panel > .table-responsive > .table-bordered {
+  border: 1px;
+}
+
+.panel-default {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.panel-default > .panel-heading {
+  color: $black;
+  background-color: $white;
+  border-color: $white;
+}
+
+.panel-default > .panel-heading h3,
+.panel-default > .panel-heading h4 {
+  color: $black;
+  border-bottom: 1px solid $grayLight;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+.sub-nav.panel-default > .panel-heading h3,
+.sub-nav.panel-default > .panel-heading h4 {
+  color: $black;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.panel .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index: 2;
+  color: $white;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.panel ul.list-group li.list-group-item.active a {
+  color: $white;
+}
+
+.panel-footer {
+  background-color: $white;
+  border: 0;
+  padding: 10px 15px 20px;
+}

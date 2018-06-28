@@ -1,0 +1,36 @@
+header {
+  margin-bottom : 40px;
+  box-shadow    : 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.site-title {
+  background-image : url("/images/logo.png");
+  text-indent      : -9999px;
+  height           : 45px;
+  width            : 200px;
+  margin           : 0 auto;
+}
+
+section#page-title {
+  background : $white;
+  min-height : 10px;
+  padding : 10px 15px;
+}
+
+section#page-title h1 {
+  font-size: 24px;
+  color   : $black;
+}
+
+section#page-title a {
+  color : $grayLighter;
+}
+
+section#page-title span a,
+section#page-title a:hover {
+  color : $white;
+}
+
+section#page-title a.button {
+  color : $white;
+}

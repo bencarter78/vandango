@@ -1,0 +1,41 @@
+.panel > .table-bordered, .panel > .table-responsive > .table-bordered {
+  border: 1px solid #DDDDDD;
+}
+
+.table-responsive {
+  border-top: none !important;
+}
+
+thead {
+  background : #F5F5F5;
+  color      : $grayDarker;
+  border     : 1px solid #DDDDDD;
+}
+
+.table-bordered > thead > tr > th.hide-cell,
+.table-bordered > thead > tr > td.hide-cell,
+.table thead:first-child tr:first-child th.hide-cell {
+  background : $white;
+  border     : 1px solid $white;
+}
+
+tr.total {
+  border-top : 2px solid $gray;
+}
+
+th a, th a:hover {
+  color : inherit;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #dce9f1;
+}
+
+.VueTables__search label,
+.VueTables__limit label {
+  margin-right: 10px;
+}
+
+.VueTables__sortable {
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+//
+// Layout
+// --------------------------------------------------
+
+html,
+body {
+  height: 100%;
+  background: #F5F5F5;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+body {
+  padding-top: 70px;
+}
+
+/* Wrapper for page content to push down footer */
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+body, label, .checkbox label {
+  font-weight: 300;
+}
+
+body#login {
+  background: $black;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+}

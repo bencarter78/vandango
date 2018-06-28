@@ -1,0 +1,56 @@
+.control-group {
+  margin-bottom: 0px;
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.alert-error .control-label {
+  border-left: 5px solid red;
+  background: none;
+  color: $danger;
+}
+
+.control-group input,
+.control-group textarea {
+  padding: 10px;
+  font-size: 16px;
+  height: auto;
+}
+
+input, input[type="password"], input[type="search"], isindex, textarea {
+  border: 1px solid $grayLighter;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+  padding: 10px;
+}
+
+.required:after {
+  content: '*';
+  color: red;
+  padding-left: 5px;
+}
+
+textarea.form-control {
+  width: 100%;
+}
+
+form label {
+  font-weight: 500;
+  font-size: 110%;
+}
+
+.file-upload .glyphicon {
+  padding-right: 5px;
+}
+
+legend {
+  font-size: 16px;
+  color: $grayLight;
+  text-transform: uppercase;
+  font-weight: bold;
+}

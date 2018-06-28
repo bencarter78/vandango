@@ -1,0 +1,51 @@
+//
+// Variables
+// --------------------------------------------------
+
+$btn-font-weight: 300;
+$font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+
+// Grays
+// -------------------------
+$black : #212121;
+$grayDarker : #282828;
+$grayDark : #4b4b4b;
+$gray : #727272;
+$grayLight : #a6a6a6;
+$grayLighter : #dddddd;
+$grayLightest : #f6f5f6;
+$white : #FFFFFF;
+
+//Project Colors
+// --------------------------
+$primary : #1976D2;
+$primaryDark : #0D47A1;
+$primaryDarken : #0D47A1;
+$primaryLight : #64B5F6;
+$primary50 : #E3F2FD;
+
+$secondary : #4CAF50;
+$secondaryLight : #A5D6A7;
+$secondaryDark : #2E7D32;
+$secondaryDarken : #2E7D32;
+
+$accent : #4CAF50;
+$accentLight : #A5D6A7;
+$accentDark : #2E7D32;
+
+$success : #47a447;
+$successDarken : darken($success, 15%);
+$successDark : darken($success, 30%);
+
+$danger : #e52d2d;
+$dangerDarken : darken($danger, 15%);
+$dangerDark : darken($danger, 30%);
+
+$info : #03a8d4;
+$infoDarken : darken($info, 15%);
+$infoDark : darken($info, 30%);
+
+$warning : #ff7200;
+$warningDarken : darken($warning, 15%);
+$warningDark : darken($warning, 30%);
+

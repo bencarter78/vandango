@@ -1,0 +1,29 @@
+ul.form-filter.list-group {
+  margin-bottom: 0;
+}
+
+ul.form-filter .list-group-item {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  background: none;
+}
+
+ul.form-filter .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+ul.form-filter .list-group-item:last-child {
+  border-bottom: 0px;
+}
+
+.actions.list-inline {
+  margin-left: 0;
+}
+
+.actions.list-inline li {
+  padding-left: 0;
+  padding-right: 0;
+}
